@@ -16,7 +16,7 @@ public class SolutionWeb extends CommonOps {
     public void test01_validate_starter_tab(){
         WebActions.hoverElements(navigationBar.SolutionTab , navigationBar.PlanTab);
 
-        WebActions.hoverElement(navigationBar.Starter); // Starter, Email, Protect
+        WebActions.hoverElement(navigationBar.Starter); 
 
         Verifications.verifyText(navigationBar.Starter , "Starter™");
     }
