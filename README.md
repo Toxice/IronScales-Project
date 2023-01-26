@@ -25,4 +25,8 @@ contains method that implemets the page objects
 # Verifications
 contains methods for verifiying test cases
 
+# TestNG files
+1. TestNGJava.xml - for the Java Remove Test Case
+2. TestNGWeb.xml - for the Solution and Position Test Cases (Selenium Questions 1 and 2)
+3. TestNGWebsites.xml - for the Selenium Websites Test Case (Selenium Question 3)
 
