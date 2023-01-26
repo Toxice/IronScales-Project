@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Websites Tests">
+    <test name="Linkedin">
+        <classes>
+            <class name="tests.Websites.LinkedinWeb"></class>
+        </classes>
+    </test>
+
+    <test name="Youtube">
+        <classes>
+            <class name="tests.Websites.YoutubeWeb"></class>
+        </classes>
+    </test>
+
+    <test name="Twitter">
+        <classes>
+            <class name="tests.Websites.TwitterWeb"></class>
+        </classes>
+    </test>
+
+    <test name="Facebook tests">
+        <classes>
+            <class name="tests.Websites.FacebookWeb"></class>
+        </classes>
+    </test>
+
+    <test name="Instagram">
+        <classes>
+            <class name="tests.Websites.InstagramWeb"></class>
+        </classes>
+    </test>
+
+</suite>

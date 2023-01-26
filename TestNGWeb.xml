@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Web Tests">
+    <test name="Solution">
+        <classes>
+            <class name="tests.Web.SolutionWeb"></class>
+        </classes>
+    </test>
+
+    <test name="Position">
+        <classes>
+            <class name="tests.Web.PositionWeb"></class>
+        </classes>
+    </test>
+</suite>

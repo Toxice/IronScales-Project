@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-26T20:49:27Z" name="Web Tests" finished-at="2023-01-26T20:50:05Z" duration-ms="37316">
+    <groups>
+    </groups>
+    <test started-at="2023-01-26T20:49:27Z" name="Solution" finished-at="2023-01-26T20:49:44Z" duration-ms="16340">
+      <class name="tests.Web.SolutionWeb">
+        <test-method is-config="true" signature="startSession()[pri:0, instance:tests.Web.SolutionWeb@4b34fff9]" started-at="2023-01-26T20:49:27Z" name="startSession" finished-at="2023-01-26T20:49:35Z" duration-ms="7398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method signature="test01_validate_starter_tab()[pri:0, instance:tests.Web.SolutionWeb@4b34fff9]" started-at="2023-01-26T20:49:35Z" name="test01_validate_starter_tab" finished-at="2023-01-26T20:49:36Z" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_validate_starter_tab -->
+        <test-method is-config="true" signature="refreshScene()[pri:0, instance:tests.Web.SolutionWeb@4b34fff9]" started-at="2023-01-26T20:49:36Z" name="refreshScene" finished-at="2023-01-26T20:49:38Z" duration-ms="2592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshScene -->
+        <test-method signature="test02_validate_email_tab()[pri:0, instance:tests.Web.SolutionWeb@4b34fff9]" started-at="2023-01-26T20:49:38Z" name="test02_validate_email_tab" finished-at="2023-01-26T20:49:39Z" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_validate_email_tab -->
+        <test-method is-config="true" signature="refreshScene()[pri:0, instance:tests.Web.SolutionWeb@4b34fff9]" started-at="2023-01-26T20:49:39Z" name="refreshScene" finished-at="2023-01-26T20:49:41Z" duration-ms="2273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshScene -->
+        <test-method signature="test03_validate_protect_tab()[pri:0, instance:tests.Web.SolutionWeb@4b34fff9]" started-at="2023-01-26T20:49:41Z" name="test03_validate_protect_tab" finished-at="2023-01-26T20:49:42Z" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_validate_protect_tab -->
+        <test-method is-config="true" signature="refreshScene()[pri:0, instance:tests.Web.SolutionWeb@4b34fff9]" started-at="2023-01-26T20:49:42Z" name="refreshScene" finished-at="2023-01-26T20:49:43Z" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshScene -->
+        <test-method is-config="true" signature="endSession()[pri:0, instance:tests.Web.SolutionWeb@4b34fff9]" started-at="2023-01-26T20:49:43Z" name="endSession" finished-at="2023-01-26T20:49:44Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- tests.Web.SolutionWeb -->
+    </test> <!-- Solution -->
+    <test started-at="2023-01-26T20:49:44Z" name="Position" finished-at="2023-01-26T20:50:05Z" duration-ms="20939">
+      <class name="tests.Web.PositionWeb">
+        <test-method is-config="true" signature="startSession()[pri:0, instance:tests.Web.PositionWeb@490caf5f]" started-at="2023-01-26T20:49:44Z" name="startSession" finished-at="2023-01-26T20:49:49Z" duration-ms="5877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method signature="test_validate_year()[pri:0, instance:tests.Web.PositionWeb@490caf5f]" started-at="2023-01-26T20:49:49Z" name="test_validate_year" finished-at="2023-01-26T20:50:03Z" duration-ms="13410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_validate_year -->
+        <test-method is-config="true" signature="refreshScene()[pri:0, instance:tests.Web.PositionWeb@490caf5f]" started-at="2023-01-26T20:50:03Z" name="refreshScene" finished-at="2023-01-26T20:50:04Z" duration-ms="1473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshScene -->
+        <test-method is-config="true" signature="endSession()[pri:0, instance:tests.Web.PositionWeb@490caf5f]" started-at="2023-01-26T20:50:04Z" name="endSession" finished-at="2023-01-26T20:50:05Z" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- tests.Web.PositionWeb -->
+    </test> <!-- Position -->
+  </suite> <!-- Web Tests -->
+</testng-results>
