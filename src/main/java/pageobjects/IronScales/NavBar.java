@@ -13,10 +13,10 @@ import java.util.List;
 public class NavBar {
 
     @FindBy(xpath = "//div[@id='navbar_global']")
-    public WebElement NavBar; // the web element of the entire nav bar
+    public WebElement NavBar; 
 
     @FindBy(xpath = "//div[@id='navbar_global']/div/ul[1]/li[1]/a/span[text()='Solution']")
-    public WebElement SolutionTab; // the web element for the solution tab
+    public WebElement SolutionTab; 
 
     @FindBy(xpath = "//div[@id='navbar_global']/div/ul[1]/li[1]/ul/li/a[text()='By Plan']")
     public WebElement PlanTab;
