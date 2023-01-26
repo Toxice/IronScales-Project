@@ -8,7 +8,7 @@ public class WebFlows extends CommonOps {
     public static void getSolutionTab(WebElement element){
         WebActions.hoverElements(navigationBar.SolutionTab , navigationBar.PlanTab);
 
-        WebActions.hoverElement(element); // Starter, Email, Protect
+        WebActions.hoverElement(element);
     }
 
     public static void getPositions(){
