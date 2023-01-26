@@ -14,9 +14,9 @@ import java.util.List;
 
 public class Base {
     // Selenium
-    protected static WebDriver driver; // a WebDriver object
-    protected static WebDriverWait Wait; // a WebDriverWait object
-    protected static Actions Action; // an Actions object
+    protected static WebDriver driver; 
+    protected static WebDriverWait Wait; 
+    protected static Actions Action; 
 
     // Page Objects
 
