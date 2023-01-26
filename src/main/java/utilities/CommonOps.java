@@ -23,16 +23,16 @@ public class CommonOps extends Base {
     public static void startSession(){
         driver = initChrome();
 
-        driver.manage().window().maximize(); // maximizing the browser window
-        driver.navigate().to("https://ironscales.com/"); // navigating to the IronScales home page
+        driver.manage().window().maximize(); 
+        driver.navigate().to("https://ironscales.com/"); 
 
-        Action = new Actions(driver); // initializing the Actions object
+        Action = new Actions(driver); 
 
         Wait = new WebDriverWait(driver , 10);
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        PageObjectManager.initPageObject(); // initialize the page objects
+        PageObjectManager.initPageObject();
     }
 
     @AfterMethod
@@ -45,7 +45,7 @@ public class CommonOps extends Base {
         driver.close();
     }
 
-    public static WebDriver initChrome() // functions used to initialize the chrome driver
+    public static WebDriver initChrome() // method made to initialize the chrome driver
     {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
