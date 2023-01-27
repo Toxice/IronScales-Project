@@ -13,7 +13,7 @@ public class WebActions extends CommonOps {
     }
 
     public static void hoverElement(WebElement element){
-        Wait.until(ExpectedConditions.visibilityOf(element));
+        Wait.until(ExpectedConditions.elementToBeClickable(element));
 
         Action.moveToElement(element).build().perform();
     }
