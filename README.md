@@ -1,5 +1,5 @@
 # IronScales-Project
-Automation Project for IronScales By Mor Romano
+Automation Project for IronScales By Mor Romano                         ![alt-text](https://ironscales.com/hs-fs/hubfs/Icons%20and%20Logos/ironscales_logo_rectangle_2021.png?width=315&height=114&name=ironscales_logo_rectangle_2021.png)
 
 # Structure
 ## src - contains the source code of the project ( main and test folder)
@@ -32,3 +32,34 @@ contains methods for verifiying test cases
 2. TestNGWeb.xml - for the Solution and Position Test Cases (Selenium Questions 1 and 2)
 3. TestNGWebsites.xml - for the Selenium Websites Test Case (Selenium Question 3)
 
+# How to test the Repo:
+## first run:
+`
+mvn validate -P<TestNG id>
+`
+## then run:
+`
+mvn compile -P<TestNG id>
+`
+## and then run the test command:
+`
+mvn test -P<TestNG id>
+`
+
+## TestNGJava.xml:
+
+`
+mvn test -PJava
+`
+
+## TestNGWeb.xml:
+
+`
+mvn test -PWeb
+`
+
+## TestNGWebsites.xml:
+
+`
+mvn test -PWebsites
+`
