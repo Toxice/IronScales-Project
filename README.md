@@ -1,15 +1,15 @@
-# IronScales-Project
+# IronScales-Project 
+### Automation Project for IronScales By Mor Romano 
 
 <p>
   <a href = "https://ironscales.com/"/>
 <img src="https://ironscales.com/hs-fs/hubfs/Icons%20and%20Logos/ironscales_logo_rectangle_2021.png?width=315&height=114&name=ironscales_logo_rectangle_2021.png"/>
   </p>
-
-Automation Project for IronScales By Mor Romano                         
+                       
 
 # Structure
 ## src - contains the source code of the project ( main and test folder)
-## Actions - contains methods that wrap existing Selenium methods
+## Actions - contains methods that wrap existing Selenium methods (and methods used for the Java remove test case)
 ## Java - contains the Remove method
 ## Flows - contains method that make up a test case
 ## pageobjects/IronScales - contains the Page Objects
@@ -19,16 +19,16 @@ Automation Project for IronScales By Mor Romano
 # utilities ::
 contains the automation infrastructre
 
-# Base
+## Base
 contains all the variables needed
 
-# CommonOps
+## CommonOps
 contains the @BeforeClass , @AfterClass , @AfterMethod methods
 
-# PageObject Manager
+## PageObject Manager
 contains method that implemets the page objects
 
-# Verifications
+## Verifications
 contains methods for verifiying test cases
 
 # Test Cases :: 
