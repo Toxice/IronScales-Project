@@ -10,7 +10,7 @@ Automation Project for IronScales By Mor Romano                         ![alt-te
 
 # main/java :
 
-# utilities
+# utilities ::
 contains the automation infrastructre
 
 # Base
@@ -25,7 +25,7 @@ contains method that implemets the page objects
 # Verifications
 contains methods for verifiying test cases
 
-# Test Cases: 
+# Test Cases :: 
 
 ## TestNG files
 1. TestNGJava.xml - for the Java Remove Test Case
