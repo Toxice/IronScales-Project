@@ -37,7 +37,7 @@ public class Verifications extends CommonOps {
 
     public static void verifyGreaterThan(WebElement element , int Expected){
         try {
-            assertTrue(Actions.greaterThan((int) element.getText().charAt(0), Expected));
+              assertTrue(Actions.greaterThan((int) Actions.getNumberFromString(element.getText()), Expected));
         } catch (AssertionError e)
         {
             System.out.println(e.getMessage());
