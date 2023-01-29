@@ -1,5 +1,11 @@
 # IronScales-Project
-Automation Project for IronScales By Mor Romano                         ![alt-text](https://ironscales.com/hs-fs/hubfs/Icons%20and%20Logos/ironscales_logo_rectangle_2021.png?width=315&height=114&name=ironscales_logo_rectangle_2021.png)
+
+<p>
+  <a href = "https://ironscales.com/"/>
+<img src="https://ironscales.com/hs-fs/hubfs/Icons%20and%20Logos/ironscales_logo_rectangle_2021.png?width=315&height=114&name=ironscales_logo_rectangle_2021.png"/>
+  </p>
+
+Automation Project for IronScales By Mor Romano                         
 
 # Structure
 ## src - contains the source code of the project ( main and test folder)
